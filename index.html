@@ -10,89 +10,49 @@
 </head>
 
 <body>
-    <header class="w-full h-20 flex items-center bg-transparent">
-        <div class="w-3/4 mx-auto">
-            <div class="float-left">
-                <i class="bi bi-globe text-[#00abf0] text-2xl p-2"></i>
-                <span class="text-white font-bold text-2xl">Gustavo Silveira</span>
-            </div>
-            <nav class="float-right ml-auto">
-                <ul class="flex gap-3">
-                    <li><a href="#Home" class="text-white font-bold">Home</a></li>
-                    <li><a href="#Sobre" class="text-white font-bold">Sobre</a></li>
-                    <li><a href="#" class="text-white font-bold">Portfólio</a></li>
-                    <li><a href="#" class="text-white font-bold">Serviços</a></li>
-                    <li><a href="#" class="text-white font-bold">Depoimentos</a></li>
-                    <li><a href="#" class="text-white font-bold">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
+<nav class="bg-transparent">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <i class="bi bi-globe text-[#00abf0] text-2xl p-2"></i>
+            <span class="text-white font-bold text-2xl">Gustavo Silveira</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 font-bold" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold">Sobre</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold">Portfólio</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold">Serviços</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold">Depoimentos</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
 
-    <main>
-        <section id="Home">
-            <div class="flex flex-row h-[100vh] w-3/4 mx-auto items-center">
-                <div class=" flex flex-col mx-auto w-[50%] p-4">
-                    <h1 class="text-5xl text-[#00abf0] font-bold mb-2">Hello, my name is Gustavo</h1>
-                    <h5 class="text-3xl text-white font-bold mb-3">Front-end Developer</h5>
-                    <p class="text-white font-semibold text-justify mb-5">
-                        Como Desenvolvedor Front-end meu compromisso é ir além do código,
-                        moldar o futuro digital com criatividade, acessibilidade
-                        e usabilidade. Crio experiências cativantes que não só funcionam,
-                        mas também inspirar e envolver os usuários, transformando visões em belas,
-                        interfaces funcionais que refletem a harmonia entre design e tecnologia.
-                    </p>
-                    <button class="w-36 h-9 bg-[#00abf0] text-white font-bold rounded-lg">
-                        Vamos conversar?
-                    </button>
-                </div>
-                <div class=" flex items-center">
-                    <img  src="./src/assets/Animation.png" alt="">
-                </div>
-            </div>
-        </section>
 
-        <section id="Sobre">
-            <div class="flex flex-row h-[90vh] w-3/4 mx-auto items-center ">
-                <div class="bg-slate-900 w-[100%]">
-                    <img class="rounded-xl"  src="./src/assets/teste.jpg" alt="">
-                </div>
-
-                <div class=" m-20">
-                    <h2 class="text-[#00abf0] font-bold mb-2 text-3xl">Prazer em conhecê-lo,</h2>
-                    <h5 class="text-[#ededed] font-bold text-3xl">meu nome é Gustavo Silveira.</h5>
-
-                    <div class="flex items-center justify-center gap-16 mb-10 mt-8">
-                        <div class="flex flex-col items-center p-3 w-[30%] h-[50%] border-solid border-2 border-[#00abf0] rounded-xl">
-                            <i class="bi bi-journal text-8xl text-[#ededed] mb-1 mt-10"></i>
-                            <h4 class="text-[#ededed] font-semibold">Educação</h4>
-                            <h6 class="text-[#ededed] font-semibold text-center">Computer Enginner</h6>
-                        </div>
-    
-                        <div class="flex flex-col items-center p-3 w-[30%] h-[50%] border-solid border-2 border-[#00abf0] rounded-xl">
-                            <i class="bi bi-trophy text-8xl text-[#ededed] mb-1 mt-10"></i>
-                            <h4 class="text-[#ededed] font-semibold">Experiência</h4>
-                            <h6 class="text-[#ededed] font-semibold text-center">Front-end Developer</h6>
-                        </div>
-                    </div>
-                    
-
-                    <div>
-                        <p class="text-[#ededed] font-semibold text-justify">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Sit voluptatibus ex quas officiis omnis voluptatem ipsum atque 
-                            reiciendis accusamus cumque incidunt praesentium, molestiae nemo animi. 
-                            Deleniti facere quae delectus eos at dolore doloremque ratione nisi sapiente 
-                            totam, quia explicabo earum iusto optio minima dolorum veniam libero 
-                            harum aliquid perferendis officiis?
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
     
-    </main>
+    
+
+   
 </body>
 </html>
