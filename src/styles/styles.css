@@ -20,6 +20,10 @@ html {
     }
 }
 
+.smooth-transition {
+    transition: opacity 0.3s ease, height 0.3s ease;
+}
+
 
 #particles-js {
     position: absolute;
